@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+{{>head title=this.title subpage='ATN SHOP' }}
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.cdnfonts.com/css/courgette" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    {{>header title=this.title}}
+    <main>
+        <div class="wrapper">
+            <h1>Sign in</h1>
+            <form action="">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <input type="submit" value="LOGIN">
+            </form>
+            <div class="bottom-text">
+                <input type="checkbox" name="remember" checked="checked"> Remember me
+                <a href="#">Forgot Password?</a>
+            </div>
+
+            <div class="socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div id="overlay-area"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1>
+                <img src="img/logo.png" alt="">
+            </h1>
+            <p>
+                ATN is a Vietnamese company which is selling barbie toys to teenagers in many provinces all over
+                Vietnam.
+                The company has the
+                revenue over 700.000 dollars/year.</p>
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h2>
+                    Social</h2>
+                <ul class="box">
+                    <li><a href="https://www.facebook.com/nghongdan/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/pinkdzun/">Instagram</a></li>
+                    <li><a href="https://github.com/nghongdan/">Github</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>
+                    Information</h2>
+                <ul class="box h-box">
+                    <li><a href="order">Order</a></li>
+                    <li><a href="payment">Payment</a></li>
+                    <li><a href="product">Product</a></li>
+                    <li><a href="profile">Profile</a></li>
+                    <li><a href="report">Report</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>
+                    Legal</h2>
+                <ul class="box">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contract</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="b-footer">
+            <p>
+                All rights reserved by ©Nguyen Hong Dan GCS190090 </p>
+        </div>
+    </footer>
+</body>
+
+</html>
